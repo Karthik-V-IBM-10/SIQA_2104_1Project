@@ -7,15 +7,21 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="JMS2waySSL">1.0</value>
+    <value name="JMSTest">1.0</value>
+    <value name="SSL_JDBC_Test">1.0</value>
+  </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">1</value>
+  <value name="build">6</value>
   <null name="description"/>
   <value name="created_date">21-04-2025 03:56:16 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-04-21T03:56:18.936032719Z</value>
+  <value name="lastUpdated">2025-04-21T04:03:01.906622442Z</value>
+  <value name="wmProjectId">fl05ed0cfd49fdc11b3658ae</value>
+  <value name="creator">siqa developerUser</value>
 </Values>
